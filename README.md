@@ -19,12 +19,18 @@ Este proyecto inicia un servidor FastAPI que actúa como receptor de Webhooks pa
 
 ```bash
 pip install fastapi uvicorn
+```
+
+---
 
 ## Iniciar servidor
 
 ```bash
 uvicorn main:app --host 0.0.0.0 --port 5000 --reload
 ssh -R 80:localhost:5000 serveo.net
+```
+
+---
 
 ## 🛠 Configurar Webhook en GitHub
 
